@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.bestof9gagtv" name="Best Of 9GAG TV" version="0.1.0" provider-name="codeKonami">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Only the best 9GAG TV clips</summary>
+        <language></language>
+        <description lang="en">Only the best 9GAG TV clips</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>https://github.com/codekonami/plugin.video.bestof9gagtv</source>
+        <email>codekonami at outlook dot com</email>
+        <website>http://9gag.tv</website>
+    </extension>
+</addon>
