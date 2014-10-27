@@ -18,7 +18,7 @@ addonID = addon.getAddonInfo('id')
 xbox = xbmc.getCondVisibility("System.Platform.xbox")
 translation = addon.getLocalizedString
 icon = xbmc.translatePath('special://home/addons/'+addonID+'/icon.png')
-urlMain = "http://9gag.tv/api/index/nJ1gX?ref_key=&count=20&direction=1&includeSelf=0"
+urlMain = "http://9gag.tv/api/index/nJ1gX?ref_key=&count=50&direction=1&includeSelf=0"
 
 def index():
     addDir(translation(30001), urlMain, "listVideos", icon)
